@@ -1,6 +1,6 @@
 #Analisis semanal
-library(ncdf4)
 
+library(ncdf4)
 
 #Calculo de analisis medio de los ultimos 7 dias
 
