@@ -1,5 +1,6 @@
+#Analisis semanal
 library(ncdf4)
-#library(ramify)
+
 
 #Calculo de analisis medio de los ultimos 7 dias
 
