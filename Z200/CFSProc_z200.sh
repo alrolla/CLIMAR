@@ -1,5 +1,7 @@
 #!/bin/bash
 
+Programa para procesamiento de los archivos de 200 hPa (z200)
+
 if [ "$#" -eq 0 ];then
 	#calculo la fecha de dos dias antes
 	Fecha=`date +%Y%m%d -d '1 days ago'`
