@@ -29,3 +29,15 @@ crontab
 * Georeferencio los mapas
 * Inserto el registro en la DB y copio los mapas.
 
+## Procesamiento Precipitacion (PRE)
+
+crontab
+30 4 * * * /home/alrolla/Prono_Semanal/olr/scripts/CFSProc_olr.sh
+
+* Realiza la descarga de los archivos de CFS horarios de PRE
+* Calculo la anomalia con respecto a la climatologia
+* Genero analisis Diario
+* Genero analisis Ultima semana y anomalia respecto de la climatologia semanal para este dia
+* Realiza proceso de generacion de los mapas
+* Georeferencio los mapas
+* Inserto el registro en la DB y copio los mapas.
