@@ -15,7 +15,7 @@ echo $var."\n";
 
 	$servername = "localhost";
 	$username = "alrolla";
-	$password = "cKqP6Vr2Ahhqwqgt";
+	$password = " ";
 	$dbname = "CFS";
 
 	// Create connection
