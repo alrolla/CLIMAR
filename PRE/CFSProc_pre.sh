@@ -1,4 +1,4 @@
-n/bash
+#!bin/bash
 
 if [ "$#" -eq 0 ];then
 	#calculo la fecha de dos dias antes
