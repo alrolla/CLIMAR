@@ -5,4 +5,5 @@ El proyecto CLIMAR se basa en el desarrollo de herramientas de monitoreo y pron√
 </p>
 
 ## Procesamiento Geopotencial en 200 hPa ( Z200)
-
+crontab
+0 4 * * * /home/alrolla/Prono_Semanal/z200/scripts/CFSProc_z200.sh
